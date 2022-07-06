@@ -1,5 +1,5 @@
-.top-banner{
-    background-image: url(donation9.jpg);
+.top-banner {
+    background-image: url(Cover/donation9.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-position: center;
@@ -10,98 +10,94 @@
     color: whitesmoke;
     margin-bottom: 120px;
 }
-body{
+
+body {
     font-family: 'Finlandica', sans-serif;
     margin: 0%;
 }
-.first-button{
+.paragraph-color{
+    color: gray;
+}
+.button {
     text-decoration: none;
     color: antiquewhite;
-    background-image: linear-gradient(rgb(204, 64, 64),rgb(207, 29, 29));
+    background-image: linear-gradient(rgb(27, 46, 216), rgb(29, 186, 207));
+    box-shadow: 3px 3px 25px rgb(5, 5, 117);
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
     font-size: 20px;
 }
-.h1-text{
+
+.h1-text {
     font-size: 65px;
     text-shadow: 5px 5px 5px black;
 }
-div p{
+
+div p {
     font-size: 20px;
 }
-.shadow{
+
+.shadow {
     text-shadow: 5px 5px 5px black;
 }
-.text-align{
+
+.text-align {
     text-align: center;
     font-size: 30px;
 }
-.donate-head{
+
+.donate-head {
     margin-bottom: 50px;
-}   
-.taka{
+}
+
+.taka {
     width: 15%;
     font-size: 25px;
     text-align: center;
 }
-.left-width{
+
+.left-width {
     width: 20%;
 }
-.right-width{
+
+.right-width {
     width: 20%;
 }
-.flex{
+
+.flex {
     display: flex;
     margin-bottom: 50px;
 }
-.border-taka{
+
+.border-taka {
     border: 2px solid rgb(231, 73, 45);
     color: rgb(209, 66, 41);
     background-color: rgba(216, 87, 87, 0.377);
 }
-.amount{
-    padding-bottom: 40px;
-    text-align: center;
-}
-.border{
-    border: 0px solid white;
-    text-align: center;
-    padding-bottom: 5px;
-}
-.bottom-line{
+
+.amount-border {
     width: 50%;
-    border-bottom: 1px solid rgba(59, 59, 59, 0.253);
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-left: 25%;
+    margin-bottom: 40px;
 }
-.hr-line-left{
-    width: 25%;
-}
-.hr-line-right{
-    width: 25%;
-}
-.flex-line{
-    display: flex;
-}
-.scnd-button{
-    text-decoration: none;
-    color: antiquewhite;
-    background-image: linear-gradient(rgb(204, 64, 64),rgb(207, 29, 29));
-    padding: 10px 30px 10px 30px;
-    border-radius: 10px;
-    font-size: 20px;
-}
-.button-align{
+.button-align {
     text-align: center;
     margin-bottom: 120px;
 }
-.donate-plan{
+
+.donate-plan {
     display: flex;
     text-align: center;
     margin-bottom: 120px;
     text-align: left;
     padding-top: 20px;
-    
+
 }
-.food{
+
+.food {
     width: 25%;
     margin-left: 10%;
     margin-right: 2.5%;
@@ -110,18 +106,73 @@ div p{
     background-color: rgba(124, 201, 204, 0.226);
     text-align: left;
     padding-left: 20px;
+    padding-right: 5px;
 }
-.shelter{
+
+.shelter {
     width: 25%;
     padding-left: 20px;
     padding-top: 60px;
     background-color: rgba(255, 99, 71, 0.253);
 }
-.education{
+
+.education {
     width: 25%;
     margin-right: 10%;
     margin-left: 2.5%;
     padding-left: 20px;
     padding-top: 60px;
     background-color: rgba(255, 102, 0, 0.281);
+}
+.new-theme{
+    display: flex;
+    background-color: rgba(3, 252, 252, 0.288);
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin-bottom: 120px;
+}
+.email-border {
+    width: 25%;
+    padding: 13px;
+    background-color: rgba(255, 255, 255, 0.671);
+    margin-left: 2%;
+    border: 0px;
+    margin-bottom: 1%;
+    margin-left: -10px;
+
+}
+
+.button-subscribe {
+    text-decoration: none;
+    color: antiquewhite;
+    background-image: linear-gradient(rgb(27, 46, 216), rgb(29, 186, 207));
+    padding: 8px;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    font-size: 15px;
+    margin-left: -8px;
+}
+
+.subscribe-box {
+    width: 45%;
+    background-color: rgba(92, 164, 223, 0.308);
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    padding: 50px;
+    margin-bottom: 120px;
+}
+
+.footer {
+    background-color: darkslategrey;
+    padding: 1px;
+    text-align: center
+}
+
+.footer-font {
+    font-family: 'Lobster Two', cursive;
+    font-size: 35px;
+    color: rgb(24, 122, 214);
+}
+.font-footer-color{
+    color: rgba(240, 248, 255, 0.623);
 }
